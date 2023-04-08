@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <DATABASE>
+    <FIELDS>
+      <FIELD TYPE="LONGINT">field_1</FIELD>
+      <FIELD TYPE="LONGINT">Unnamed_ 0</FIELD>
+      <FIELD TYPE="STRING">Marca</FIELD>
+      <FIELD TYPE="STRING">Modelo</FIELD>
+      <FIELD TYPE="STRING">Numeracion</FIELD>
+      <FIELD TYPE="STRING">Carroceria</FIELD>
+      <FIELD TYPE="DOUBLE">Precio</FIELD>
+      <FIELD TYPE="LONGINT">Kms</FIELD>
+      <FIELD TYPE="LONGINT">AÃ±o</FIELD>
+      <FIELD TYPE="STRING">Motor</FIELD>
+      <FIELD TYPE="DOUBLE">Potencia</FIELD>
+      <FIELD TYPE="STRING">Pais</FIELD>
+      <FIELD TYPE="STRING">Municipio</FIELD>
+      <FIELD TYPE="LONGINT">Legendary</FIELD>
+      <FIELD TYPE="STRING">coords</FIELD>
+      <FIELD TYPE="DOUBLE">lat</FIELD>
+      <FIELD TYPE="DOUBLE">lon</FIELD>
+      <FIELD TYPE="STRING">NAMEUNIT</FIELD>
+    </FIELDS>
+  </DATABASE>
+  <SOURCE></SOURCE>
+  <HISTORY saga-version="7.8.2">
+    <TOOL library="shapes_points" id="8" name="Clip Points with Polygons">
+      <OPTION type="table_field" id="FIELD" name="Add Attribute to Clipped Points" index="0">NAMEUNIT</OPTION>
+      <OPTION type="choice" id="METHOD" name="Clipping Options" index="0">one layer for all points</OPTION>
+      <INPUT type="shapes" id="POINTS" name="Points">
+        <FILE>C:/Users/Javi/Desktop/Bootcamp/2-Data_Analysis/Proyecto_coches/shp/rsq3.shp</FILE>
+      </INPUT>
+      <INPUT type="shapes" id="POLYGONS" name="Polygons">
+        <FILE>C:/Users/Javi/Desktop/Bootcamp/2-Data_Analysis/Proyecto_coches/shp_final/rsq3_provincias.shp</FILE>
+      </INPUT>
+      <OUTPUT type="shapes_list" id="CLIPS" name="Clipped Points">rsq3 [rsq3_provincias]</OUTPUT>
+    </TOOL>
+  </HISTORY>
+  <FILE></FILE>
+  <DESCRIPTION></DESCRIPTION>
+  <PROJECTION>
+    <OGC_WKT>GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]</OGC_WKT>
+    <PROJ4>+proj=longlat +a=6378137.000000 +b=6356752.314245 +no_defs</PROJ4>
+    <EPSG>-1</EPSG>
+  </PROJECTION>
+</SAGA_METADATA>
