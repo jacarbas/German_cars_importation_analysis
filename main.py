@@ -33,7 +33,6 @@ st.set_page_config(
 )
 #titulo pagina web
 st.title('From Deutschland to Spain: A Data-Driven Exploration of the Profitability of Importing Audi, Mercedes, and BMW Models')
-st.subheader('Author: Javier Carrascosa Basterra')
 
 #creamos un selector de paginas
 option = st.sidebar.selectbox(
@@ -42,6 +41,7 @@ option = st.sidebar.selectbox(
     index=0)
 
 if option == 'Data exploration':
+    st.subheader('Author: Javier Carrascosa Basterra')
     st.image(r'images/Audi-BMW-Mercedes.jpg',width=600)
     with st.expander('''Project's target''',expanded=True):
         st.write("""
