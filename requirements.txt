@@ -1,32 +1,10 @@
-
-importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1672612343532/work
-importlib-resources==5.12.0
-ipykernel @ file:///D:/bld/ipykernel_1655369313836/work
-ipython @ file:///D:/bld/ipython_1677617262387/work
-ipywidgets==8.0.4
-
-markdown-it-py==2.2.0
-
 matplotlib==3.7.1
 matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1660814786464/work
-
 numpy==1.24.2
-
 pandas==1.5.2
-
 plotly==5.13.1
 plotly-express==0.4.1
-
-python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
-python-dotenv==1.0.0
-
-scipy==1.10.1
 seaborn==0.12.2
-
-statsmodels==0.13.5
 streamlit==1.20.0
 
-urllib3==1.26.14
-
-webdriver-manager==3.8.5
 
