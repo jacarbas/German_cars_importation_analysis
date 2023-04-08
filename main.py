@@ -99,10 +99,10 @@ if option == 'Data exploration':
 
 elif option == 'Analysis':
     st.subheader('Geospatial distribution of car advertisements and mean price of all data')
-    st.image(r"maps\Distribucion anuncios coches germany.png")
+    st.image(r"maps/Distribucion anuncios coches germany.png")
     st.write('This map displays the average car prices and offer for cars in Germany, highlighting spatial variations across different regions. The map reveals that the west and south regions of Germany tend to have higher average car prices and offer compared to other regions. This pattern can be attributed to the concentration of car factories in these areas, which may drive up prices due to proximity to supply sources and increase availability of cars due to higher accessibility to dealerships and showrooms. The positive correlation between car prices and offer in these regions suggests that the high demand for cars in these areas can also contribute to the high prices. Overall, this map provides valuable insights into the spatial dynamics of the car market in Germany and can help inform strategic decisions for car importers and dealerships operating in the region.')
 
-    st.image(r"maps\Distribucion anuncios coches spain.png")
+    st.image(r"maps/Distribucion anuncios coches spain.png")
     st.write('Map of average car prices and offer in Spain. High offer observed in Valencia, Barcelona, Madrid, and the Mediterranean coast, potentially due to foreign and national people buying brand-new cars and high demand in big metropolitan areas')
 
     #rsq3
@@ -122,11 +122,11 @@ elif option == 'Analysis':
     st.write('Given that we have established the Audi RSQ3 as the most financially lucrative car for importation, let us proceed to examine its geospatial dispersion and its prices for those cars with mileages between 15.000 and 60.000 kms and from the years 2019, 2020 and 2021.')
     
     #rsq3 germany
-    st.image(r"maps\rsq3_germany.png")
+    st.image(r"maps/rsq3_germany.png")
     st.write('The german map illustrates that states with lower average prices typically offer the most affordable RSQ3 vehicles.')
 
     #rsq3 spain
-    st.image(r"maps\rsq3_spain.png")
+    st.image(r"maps/rsq3_spain.png")
     st.write('The spanish map indicates that prices tend to be higher in provinces with major cities and higher incomes, such as Bizkaia, Madrid, Valencia, and Barcelona. Additionally, prices are also elevated in Malaga and Seville, which are popular tourist destinations.')
 
     st.write('Both countries exhibit significant regional variations. By purchasing in the least expensive regions of Germany and selling in the most costly areas of Spain, we can potentially maximize our profits to approximately 15,000 euros')
