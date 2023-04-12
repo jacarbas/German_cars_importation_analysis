@@ -145,4 +145,4 @@ elif option == 'Conclusions':
     st.write('- Attaining more accurate and detailed data can prevent potential issues during the analysis process. Therefore, it is imperative to exercise extreme care and precision when performing web scraping.')
     st.write('')
 
-    st.write('All the data can be downloaded from my GitHub account at https://github.com/jacarbas/jacarbas')
+    st.write('All the data can be downloaded from my GitHub repository at https://github.com/jacarbas/jacarbas')
