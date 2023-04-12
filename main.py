@@ -88,7 +88,7 @@ if option == 'Data exploration':
     
     st.subheader('Data description')
     st.table(coches.describe())
-    st.write('Cars whose price is over 300.000 euros will be kept out of the analysis due to the small group of people who can afford this type of vehicles. Same happens to cars with more than 800 horsepower because these are outlayers or super expensive modified cars.')
+    st.write('Cars whose price is over 300.000 euros will be kept out of the analysis due to the small group of people who can afford this type of vehicles. Same happens to cars with more than 800 horsepower because either these are outlayers or super expensive modified cars. In Horsepower we can appreciate some outlayers too, as the minimun horsepower for a car equals to 0.')
 
     #years graph
     st.subheader('Distribution of cars age')
@@ -105,7 +105,7 @@ elif option == 'Analysis':
     st.write('This map displays the average car prices and offer for cars in Germany, highlighting spatial variations across different regions. The map reveals that the west and south regions of Germany tend to have higher average car prices and offer compared to other regions. This pattern can be attributed to the concentration of car factories in these areas, which may drive up prices due to proximity to supply sources and increase availability of cars due to higher accessibility to dealerships and showrooms. The positive correlation between car prices and offer in these regions suggests that the high demand for cars in these areas can also contribute to the high prices. Overall, this map provides valuable insights into the spatial dynamics of the car market in Germany and can help inform strategic decisions for car importers and dealerships operating in the region.')
 
     st.image(r"maps/Distribucion anuncios coches spain.png")
-    st.write('Map of average car prices and offer in Spain. High offer observed in Valencia, Barcelona, Madrid, and the Mediterranean coast, potentially due to foreign and national people buying brand-new cars and high demand in big metropolitan areas')
+    st.write('Map of average car prices and offer in Spain. High offer observed in Valencia, Barcelona, Madrid, and the Mediterranean coast. This region is well-known for being the region where foreign and national people go for retirement. Many of these are potential buyers of brand-new cars. Moreover, high demand in big metropolitan areas is appreciated.')
 
     #rsq3
     st.write('''
