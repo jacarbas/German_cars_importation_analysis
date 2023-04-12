@@ -109,7 +109,7 @@ elif option == 'Analysis':
 
     #rsq3
     st.write('''
-                The strategy is to find groups of cars that share the brand, model, fuel type, range of mileage, years and horsepower, and then calculate the average price for that group. This grouping enables the analysis of car prices and 
+                The strategy is to find groups of cars that share the country, brand, model, fuel type, range of mileage, years and horsepower, and then calculate the average price for that group. This grouping enables the analysis of car prices and 
                 price difference based on the same characteristics. The next dataframe also contains the number of cars in each group and the average selling price for each country. 
                 Overall, this approach allows for a more detailed analysis of the car market and helps identify the most profitable cars to import from Germany to Spain.
                 ''')
@@ -125,7 +125,7 @@ elif option == 'Analysis':
     
     #rsq3 germany
     st.image(r"maps/rsq3_germany.png")
-    st.write('The german map illustrates that states with lower average prices typically offer the most affordable RSQ3 vehicles.')
+    st.write('The german map illustrates that states with lower average prices, seen in the pevious map, typically offer the most affordable RSQ3 cars.')
 
     #rsq3 spain
     st.image(r"maps/rsq3_spain.png")
