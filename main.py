@@ -14,6 +14,7 @@ rentabilidad = pd.read_csv(r'data/rentabilidad.csv', sep=',')
 rentabilidad.drop(['Unnamed: 0'],axis = 1, inplace = True)
 
 electricos = pd.read_csv(r'data/rentabilidad_electricos.csv', sep=',')
+electricos.drop(['Unnamed: 0'],axis = 1, inplace = True)
 electricos = electricos.sort_values(by=['average_profitability'], ascending = False)
 
 pd.set_option('display.max_rows', 10)
