@@ -109,7 +109,7 @@ elif option == 'Analysis':
 
     #rsq3
     st.write('''
-                The strategy is to find groups of cars that share the brand, model, fuel type, range of mileage and horsepower. This grouping enables the analysis of car prices and 
+                The strategy is to find groups of cars that share the brand, model, fuel type, range of mileage, years and horsepower. This grouping enables the analysis of car prices and 
                 profitability based on similar car characteristics. The next dataframe also contains the number of cars in each group and the average selling price. 
                 Overall, this approach allows for a more detailed analysis of the car market and helps identify the most profitable cars to import to Spain.
                 ''')
