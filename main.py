@@ -29,7 +29,7 @@ st.set_page_config(
     menu_items={
         'Get Help': 'https://www.extremelycoolapp.com/help',
         'Report a bug': "https://www.extremelycoolapp.com/bug",
-        'About': "# This is a header. This is an *extremely* cool app!"
+        'About': "My first Exploratory Data Analysis!"
     }
 )
 #titulo pagina web
@@ -57,13 +57,13 @@ if option == 'Data exploration':
     with st.expander('''Data acquisition'''):
         st.write("""
         To collect the data for this project, I performed web scraping on www.autoscout24.com using Python's library Beautiful Soup. I applied various filters, such as brand, model, 
-        fuel type, year, mileage, horsepower, body, and country, to obtain selling prices on Audi, BMW, and Mercedes cars that are 10 years old or newer available for sale in both countries. In total, I collected data on 125,000 car advertisements, 
-        of which 100,000 were unique.
+        fuel type, year, mileage, horsepower, body, and country, to obtain selling prices on Audi, BMW, and Mercedes cars that are 10 years old or newer available for sale in both countries. In total, I collected data on 125.000 car advertisements, 
+        of which 100.000 were unique.
         Overall, the data collection process involved a combination of web scraping techniques, data cleaning, and filtering 
         to ensure that the data obtained was accurate, complete, and relevant to the research goals.
         """)
     
-    st.write('Pandas dataframes are key in this analysis. This is the car dataframe after scrapping and cleaning. Widgets on the side can be used to filter and explore the data')
+    st.write('Pandas dataframes are key in this analysis. This is the car dataframe after scrapping and cleaning. Widgets on the left panel can be used to filter and explore the data')
     
     widgets(coches)
     #st.table(coches.head(10))
@@ -80,11 +80,11 @@ if option == 'Data exploration':
     fig.update_layout(xaxis_title='')
     fig.update_layout(legend_title_text='Country')
     st.plotly_chart(fig)
-    st.write('Upon analyzing the data, it is evident that the number of cars in Germany significantly exceeds that of Spain. Furthermore, the data shows that Audi, followed by Mercedes and BMW, are the most popular brands in both countries')
+    st.write('Upon analyzing the data, it is evident that the number of cars in Germany significantly exceeds the offer in Spain. Furthermore, the data shows that Audi, followed by Mercedes and BMW, are the most popular brands in both countries')
 
     st.subheader("Variables correlation")
     st.image(r'graphs/heatmap.png')
-    st.write('From the graph it is appreciated that the horsepower has an important relevance in the price. More powerful models usually are more expensive. In addition we can see that newer models have smaller mileage.')
+    st.write('From the graph it is appreciated that the horsepower has an important relevance in the price. More powerful models usually are more expensive. In addition we can see that newer models frequently have smaller mileage.')
     
     st.subheader('Data description')
     st.table(coches.describe())
