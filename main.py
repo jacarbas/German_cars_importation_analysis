@@ -109,9 +109,9 @@ elif option == 'Analysis':
 
     #rsq3
     st.write('''
-                The strategy is to find groups of cars that share the brand, model, fuel type, range of mileage, years and horsepower. This grouping enables the analysis of car prices and 
-                profitability based on similar car characteristics. The next dataframe also contains the number of cars in each group and the average selling price. 
-                Overall, this approach allows for a more detailed analysis of the car market and helps identify the most profitable cars to import to Spain.
+                The strategy is to find groups of cars that share the brand, model, fuel type, range of mileage, years and horsepower, and then calculate the average price for that group. This grouping enables the analysis of car prices and 
+                price difference based on the same characteristics. The next dataframe also contains the number of cars in each group and the average selling price for each country. 
+                Overall, this approach allows for a more detailed analysis of the car market and helps identify the most profitable cars to import from Germany to Spain.
                 ''')
     st.table(rentabilidad.head(8))
     st.write('The data shows that the Audi Q3 in its RS version, with 400 horsepower, is the most profitable car to import, with an average difference of 10.000 euros aproximately between countries.')
