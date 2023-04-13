@@ -114,19 +114,8 @@ elif option == 'Analysis':
                 Overall, this approach allows for a more detailed analysis of the car market and helps identify the most profitable cars to import from Germany to Spain.
                 ''')
     st.table(rentabilidad.head(8))
-    
-    
-    sns.set(font_scale=0.8)
-    # Your code to create the plot
-    fig, ax = plt.subplots()
-    bar = sns.barplot(data=rentabilidad, x=[i for i in range(22)], y="average_profitability", hue=rentabilidad['Fuel type'], dodge=False)
-    ax.set_xticklabels(rentabilidad["Model"])
-    ax.tick_params(axis='x', rotation=-45)
 
-    # Show the plot in Streamlit
-    st.pyplot(fig)
-    
-    
+ 
     
     st.write('The data shows that the Audi Q3 in its RS version, with 400 horsepower, is the most profitable car to import, with an average difference of 10.000 euros aproximately between countries.')
     st.image(r'images/rsq3.jpg', width=800)
