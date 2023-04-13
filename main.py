@@ -110,7 +110,7 @@ elif option == 'Analysis':
     #rsq3
     st.write('''
                 The strategy is to find groups of cars that share the country, brand, model, fuel type, range of mileage, years and horsepower, and then calculate the average price for that group. This grouping enables the analysis of car prices and 
-                price difference based on the same characteristics. The next dataframe also contains the number of cars in each group and the average selling price for each country. 
+                price difference based on the same characteristics. The next dataframe also contains the number of cars in each group and the average selling price for each country. I considered 6 the minimum number of cars per group so that the average price is reliable. 
                 Overall, this approach allows for a more detailed analysis of the car market and helps identify the most profitable cars to import from Germany to Spain.
                 ''')
     st.table(rentabilidad.head(8))
