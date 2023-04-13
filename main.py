@@ -116,7 +116,7 @@ elif option == 'Analysis':
     st.table(rentabilidad.head(8))
     st.image(r'graphs/profitability.png')
     
-    st.write('The data shows that the Audi Q3 in its RS version, with 400 horsepower, is the most profitable car to import, with an average difference of 10.000 euros aproximately between countries.')
+    st.write('The data shows that the Audi Q3 in its RS version, with 400 horsepower, is the most profitable car to import, with an average difference of 10.000 euros aproximately between countries. However, the Mercedes GLC 350 diesel is an interesting option too, easier to sell due to a more affordable price for customers. ')
     st.image(r'images/rsq3.jpg', width=800)
 
     st.write('''However, what is the current status of electric cars? Are they considered to be the future of automobiles? Let's look at their profitability''')
