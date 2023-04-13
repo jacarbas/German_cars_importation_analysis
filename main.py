@@ -115,13 +115,13 @@ elif option == 'Analysis':
                 ''')
     st.table(rentabilidad.head(8))
     
+    
+    sns.set(font_scale=0.8)
     # Your code to create the plot
     fig, ax = plt.subplots()
     bar = sns.barplot(data=rentabilidad, x=[i for i in range(22)], y="average_profitability", hue=rentabilidad['Fuel type'], dodge=False)
     ax.set_xticklabels(rentabilidad["Model"])
     ax.tick_params(axis='x', rotation=-45)
-    
-    st.image(fig, width=600)
 
     # Show the plot in Streamlit
     st.pyplot(fig)
