@@ -133,10 +133,10 @@ elif option == 'Analysis':
     st.image(r"maps/rsq3_spain.png")
     st.write('The spanish map indicates that prices tend to be higher in provinces with major cities and higher incomes, such as Bizkaia, Madrid, Valencia, and Barcelona. Additionally, prices are also elevated in Malaga and Seville, which are popular tourist destinations.')
 
-    st.write('Both countries exhibit significant regional variations. By purchasing in the least expensive regions of Germany and selling in the most costly areas of Spain, we can potentially maximize our profits to approximately 15,000 euros')
+    st.write('Both countries exhibit significant regional variations. By purchasing in the least expensive regions of Germany and selling in the most costly areas of Spain, we can potentially maximize our profits to approximately 15.000 - 20.000 euros')
 
 elif option == 'Conclusions':
-    st.write('- The primary deduction drawn from the analysis is that importing the Audi RSQ3 with a mileage ranging between 15,000 and 60,000 kilometers and produced in the years 2019, 2020, or 2021 would be the most financially advantageous option. The profit can vary between 8000 and 15000 aproximately. Nevertheless, a profitable investment. This finding is partially explained by the bar chart in the initial columns, which demonstrates that Audi is the prominent car brand, comprising approximately 40% of the dataset. This can explain why an Audi is the most profitable brand to import with this data.')
+    st.write('- The primary deduction drawn from the analysis is that importing the Audi RSQ3 with a mileage ranging between 15,000 and 60,000 kilometers and produced in the years 2019, 2020, or 2021 would be the most financially advantageous option. The profit can vary between 10.000 and 20.000 euros aproximately. Nevertheless, a profitable investment. This finding is partially explained by the bar chart in the data exploration, which demonstrates that Audi is the prominent car brand, comprising approximately 40% of the dataset. This can explain why an Audi is the most profitable brand to import with this data.')
     st.write('')
 
     st.write('- Does this imply that importing BMW vehicles to Spain is not a viable option? Not necessarily. To obtain a more accurate understanding of the car market in both countries, it would be imperative to explore and do web scrapping on some additional online car marketplaces.')
