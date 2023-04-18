@@ -22,7 +22,7 @@ pd.set_option('display.max_rows', 10)
 coches['Horsepower'] = coches['Horsepower'].fillna(0).round(0).astype(int)
 
 st.set_page_config(
-    page_title="Luxury brand used car shop",
+    page_title="Luxury brand used cars",
     page_icon="::car",
     layout="wide",
     initial_sidebar_state="expanded",
