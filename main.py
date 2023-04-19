@@ -98,6 +98,7 @@ if option == 'Data exploration':
                 title='Number of Cars by Year')
     st.plotly_chart(fig)
     st.write('The amount of newer cars is over the amount of old cars, with more than 20.000 cars manufactured in 2018.')
+    st.write('Now change to the Analysis tab!')
 
 elif option == 'Analysis':
     st.subheader('Geospatial distribution of car advertisements and mean price of all data')
