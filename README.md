@@ -1,5 +1,5 @@
 
-- 🔭 I’m currently studying a Data Science bootcamp
-- 🌱 I’m currently learning Python
+- 🔭 GIS Data Scientist
+- 🌱 Expert in Python, Arcpy & ArcGIS Pro
 - 📫 How to reach me: javicarrascosabasterra@gmail.com
 
